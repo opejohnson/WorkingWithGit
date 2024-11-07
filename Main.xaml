@@ -110,7 +110,7 @@
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <uasc:BuildCollection x:TypeArguments="x:String" Items="{x:Null}" sap2010:Annotation.AnnotationText="Initialise new lists with existing values in this way: New List(of String) from {&quot;city1&quot;,&quot;city2&quot;,&quot;city3&quot;}" DisplayName="Build Collection - UK Cities Lists" FirstItem="London" sap:VirtualizedContainerService.HintSize="504,223" sap2010:WorkflowViewState.IdRef="BuildCollection`1_1" Result="[ukCities]">
+      <uasc:BuildCollection x:TypeArguments="x:String" Items="{x:Null}" sap2010:Annotation.AnnotationText="Initialise new lists with existing values in this way: New List(of String) from {&quot;city1&quot;,&quot;city2&quot;,&quot;city3&quot;}" DisplayName="Build Collection - UK Cities Lists" FirstItem="Bristol" sap:VirtualizedContainerService.HintSize="504,223" sap2010:WorkflowViewState.IdRef="BuildCollection`1_1" Result="[ukCities]">
         <uasc:BuildCollection.NextItems>
           <scg:List x:TypeArguments="InArgument(x:String)" Capacity="4">
             <InArgument x:TypeArguments="x:String">MANCHESTER</InArgument>
